@@ -294,30 +294,6 @@ Call this method to disable this feature.</Abstract>
 		</Token>
 		
 		<Token>
-			<TokenIdentifier>//apple_ref/occ/clm/AdRoll/initializeWithAdvertisableId:pixelId:scheme:</TokenIdentifier>
-			<Abstract type="html">Initialize the service using your AdRoll&apos;s Advertisable and Pixel identifiers.</Abstract>
-			<DeclaredIn>AdRoll+Advanced.h</DeclaredIn>
-			
-			<Declaration>+ (void)initializeWithAdvertisableId:(NSString *)advertisableId pixelId:(NSString *)pixelId scheme:(NSString *)scheme</Declaration>
-			<Parameters>
-				<Parameter>
-					<Name>advertisableId</Name>
-					<Abstract type="html">the id of the advertisable</Abstract>
-				</Parameter><Parameter>
-					<Name>pixelId</Name>
-					<Abstract type="html">the id of the pixel</Abstract>
-				</Parameter><Parameter>
-					<Name>scheme</Name>
-					<Abstract type="html">an optional schema can be used to identify your app when building segments.
-The provided schema must be a valid URL scheme. See http://www.ietf.org/rfc/rfc2396.txt</Abstract>
-				</Parameter>
-			</Parameters>
-			
-			<Anchor>//api/name/initializeWithAdvertisableId:pixelId:scheme:</Anchor>
-            <NodeRef refid="1"/>
-		</Token>
-		
-		<Token>
 			<TokenIdentifier>//apple_ref/occ/clm/AdRoll/setPageViewWithURL:</TokenIdentifier>
 			<Abstract type="html">Let the current application location to the given page. This method will log a page view event with the
 new location.
@@ -357,6 +333,30 @@ new location.
 			</Parameters>
 			
 			<Anchor>//api/name/setPageViewWithURL:properties:</Anchor>
+            <NodeRef refid="1"/>
+		</Token>
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/occ/clm/AdRoll/initializeWithAdvertisableId:pixelId:scheme:</TokenIdentifier>
+			<Abstract type="html">Initialize the service using your AdRoll&apos;s Advertisable and Pixel identifiers.</Abstract>
+			<DeclaredIn>AdRoll+Advanced.h</DeclaredIn>
+			
+			<Declaration>+ (void)initializeWithAdvertisableId:(NSString *)advertisableId pixelId:(NSString *)pixelId scheme:(NSString *)scheme</Declaration>
+			<Parameters>
+				<Parameter>
+					<Name>advertisableId</Name>
+					<Abstract type="html">the id of the advertisable</Abstract>
+				</Parameter><Parameter>
+					<Name>pixelId</Name>
+					<Abstract type="html">the id of the pixel</Abstract>
+				</Parameter><Parameter>
+					<Name>scheme</Name>
+					<Abstract type="html">an optional schema can be used to identify your app when building segments.
+The provided schema must be a valid URL scheme. See http://www.ietf.org/rfc/rfc2396.txt</Abstract>
+				</Parameter>
+			</Parameters>
+			
+			<Anchor>//api/name/initializeWithAdvertisableId:pixelId:scheme:</Anchor>
             <NodeRef refid="1"/>
 		</Token>
 		
