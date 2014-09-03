@@ -118,10 +118,11 @@ Convenience methods are provided to log events in ecommerce apps. Find more deta
 
 The AdRoll-iOS-SDK framework will automatically gather the following events for you to segment, once it is initialized:
 
-- `app_start`: when the SDK is initialized, in the app's launch.
-- `app_background`: when the app is brought to the background (ex. the user switches to another the app, is interrupted by a notification...).
-- `app_foreground`: when the app is brought back to the foreground.
-- `app_end`: when the app is terminated.
+- `install`: the first time ever an event is triggered
+- `start`: when the SDK is initialized, in the app's launch.
+- `close`: when the app is brought to the background (ex. the user switches to another the app, is interrupted by a notification...).
+- `open`: when the app is brought back to the foreground.
+- `exit`: when the app is terminated.
 
 
 ### 4. In App Purchase events
