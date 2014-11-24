@@ -118,7 +118,11 @@ Convenience methods are provided to log events in ecommerce apps. Find more deta
 
 The AdRoll-iOS-SDK framework will automatically gather the following events for you to segment, once it is initialized:
 
+<<<<<<< HEAD
 - `install`: when the very first event is triggered
+=======
+- `install`: the first time ever an event is triggered
+>>>>>>> master
 - `start`: when the SDK is initialized, in the app's launch.
 - `close`: when the app is brought to the background (ex. the user switches to another the app, is interrupted by a notification...).
 - `open`: when the app is brought back to the foreground.
