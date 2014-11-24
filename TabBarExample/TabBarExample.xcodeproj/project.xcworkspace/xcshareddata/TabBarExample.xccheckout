@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>40830E0A-3FBD-484B-9062-B242294A8B3C</string>
+	<string>10F2DD17-6B83-479D-8821-3695A03EA156</string>
 	<key>IDESourceControlProjectName</key>
 	<string>TabBarExample</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>B510EB5C-D330-4A1D-9F88-AF89CA7D3B99</key>
-		<string>https://github.com/SemanticSugar/hobo.git</string>
+		<key>CF19C37E-8FF9-4533-84AA-609F12BB8B65</key>
+		<string>ssh://github.com/SemanticSugar/hobo.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>examples/TabBarExample/TabBarExample.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>B510EB5C-D330-4A1D-9F88-AF89CA7D3B99</key>
+		<key>CF19C37E-8FF9-4533-84AA-609F12BB8B65</key>
 		<string>../../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://github.com/SemanticSugar/hobo.git</string>
+	<string>ssh://github.com/SemanticSugar/hobo.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>B510EB5C-D330-4A1D-9F88-AF89CA7D3B99</string>
+	<string>CF19C37E-8FF9-4533-84AA-609F12BB8B65</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>B510EB5C-D330-4A1D-9F88-AF89CA7D3B99</string>
+			<string>CF19C37E-8FF9-4533-84AA-609F12BB8B65</string>
 			<key>IDESourceControlWCCName</key>
 			<string>hobo</string>
 		</dict>
