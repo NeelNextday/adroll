@@ -6,7 +6,7 @@ Pod::Spec.new do |s|
   s.homepage            = "https://github.com/AdRoll"
   s.license             = { :type => 'Apache', :file => 'LICENSE' }
   s.author              = { "AdRoll" => "support@adroll.com" }
-  s.source              = { :git => "git@github.com:AdRoll/adroll-ios.git", :tag => "1.1.6" }
+  s.source              = { :git => "https://github.com/AdRoll/adroll-ios.git", :tag => "1.1.6" }
   s.social_media_url    = 'https://twitter.com/AdRoll'
 
   s.platform            = :ios, '6.0'
