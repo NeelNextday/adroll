@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Tokens version="1.0">
+	<File path="Constants/ARGender.html">
+		
+		<Token>
+			<TokenIdentifier>//apple_ref/c/tdef/ARGender</TokenIdentifier>
+			<Abstract type="html">Gender constants</Abstract>
+			<DeclaredIn>AdRoll-Constants.h</DeclaredIn>
+            
+			
+			<NodeRef refid="2"/>
+		</Token>
+		
+		
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ARGenderUnknown</TokenIdentifier>
+            <Abstract type="html">Fallback case when the gender of the user is known but it is still valuable to record it in.</Abstract>
+            <Declaration>ARGenderUnknown</Declaration>
+            
+            <DeclaredIn>AdRoll-Constants.h</DeclaredIn>
+            
+            <NodeRef refid="2"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ARGenderMale</TokenIdentifier>
+            <Abstract type="html">Male gender</Abstract>
+            <Declaration>ARGenderMale</Declaration>
+            
+            <DeclaredIn>AdRoll-Constants.h</DeclaredIn>
+            
+            <NodeRef refid="2"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ARGenderFemale</TokenIdentifier>
+            <Abstract type="html">Female gender</Abstract>
+            <Declaration>ARGenderFemale</Declaration>
+            
+            <DeclaredIn>AdRoll-Constants.h</DeclaredIn>
+            
+            <NodeRef refid="2"/>
+        </Token>
+        
+        <Token>
+            <TokenIdentifier>//apple_ref/c/econst/ARGenderOther</TokenIdentifier>
+            <Abstract type="html">Other gender, different than unknown.</Abstract>
+            <Declaration>ARGenderOther</Declaration>
+            
+            <DeclaredIn>AdRoll-Constants.h</DeclaredIn>
+            
+            <NodeRef refid="2"/>
+        </Token>
+        
+	</File>
+</Tokens>

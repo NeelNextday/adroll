@@ -12,7 +12,7 @@ The **AdRoll-iOS-SDK** framework enables [AdRoll](http://www.adroll.com) custome
 Add to your Podfile the AdRoll pod:
 
 ```
-pod 'AdRoll', :git => 'git@github.com:AdRoll/adroll-ios.git'
+pod 'AdRoll', :git => 'https://github.com/AdRoll/adroll-ios.git'
 ```
 
 Update your project dependencies with the command `$ pod install`. You should be now ready to jump to the [Integration](#Integration).
@@ -26,7 +26,7 @@ Download the AdRoll-iOS-SDK framework with one of the following approaches:
 - As a [git-submodule](http://git-scm.com/docs/git-submodule), run the following command on the console from your project's root directory:
 	
 	```
-$ mkdir -p Vendor && git submodule add git@github.com:AdRoll/adroll-ios.git Vendor/AdRoll
+$ mkdir -p Vendor && git submodule add https://github.com/AdRoll/adroll-ios.git Vendor/AdRoll
 ```
 	
 - As a zip file, click on the following link: [Download latest version](https://github.com/AdRoll/adroll-ios/archive/master.zip)
@@ -118,7 +118,11 @@ Convenience methods are provided to log events in ecommerce apps. Find more deta
 
 The AdRoll-iOS-SDK framework will automatically gather the following events for you to segment, once it is initialized:
 
+<<<<<<< HEAD
+- `install`: when the very first event is triggered
+=======
 - `install`: the first time ever an event is triggered
+>>>>>>> master
 - `start`: when the SDK is initialized, in the app's launch.
 - `close`: when the app is brought to the background (ex. the user switches to another the app, is interrupted by a notification...).
 - `open`: when the app is brought back to the foreground.
